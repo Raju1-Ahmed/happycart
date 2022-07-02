@@ -28,9 +28,6 @@ const NavBottom = () => {
                 <div class="hidden lg:block"><button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">10:00:00AM</button></div>
                 <div class="hidden lg:block"><button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Shop Father’s Day Gifts</button></div>
             </div>
-            {/* 
-                    *****This Div only show when use Mobile Device*****
-      */}
             <div className='grid grid-cols-2 mt-1 justify-end bg-base-300 lg:hidden md:hidden sm:hidden'>
                 <div className='flex w-38 py-2 justify-start'>
                     <img src="https://img.icons8.com/office/20/000000/marker.png" />
@@ -47,9 +44,7 @@ const NavBottom = () => {
                     </div>
                 </div>
             </div>
-            {/* 
-                              *****The End Mobile Device Div****
-       */}
+            
         </div>
     );
 };
